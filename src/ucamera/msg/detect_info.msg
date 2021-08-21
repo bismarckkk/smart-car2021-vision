@@ -1,0 +1,2 @@
+sensor_msgs/Image img
+geometry_msgs/PoseWithCovarianceStamped pose

@@ -1,0 +1,5 @@
+sensor_msgs/Image img
+---
+int16[] degree
+bool[] hair
+bool[] glass

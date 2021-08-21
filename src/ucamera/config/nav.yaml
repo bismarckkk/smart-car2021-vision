@@ -1,0 +1,45 @@
+goal_no: 3
+
+shoot1: True
+shoot2: False
+
+
+
+
+#shoot1_position_x: 2.56
+#shoot1_position_y: 0.09   #0.05
+#shoot1_orientation_z: 0.958
+#shoot1_orientation_w: 0.286
+
+#不旋转时使用以下参数
+shoot1_position_x: 2.85 #2.589
+shoot1_position_y: 0 #0.085
+shoot1_orientation_z: 0.979 #-1
+shoot1_orientation_w: 0.204 #0.006
+
+
+#需要旋转时使用以下参数
+#shoot1_position_x: 2.576 #2.589
+#shoot1_position_y: 0.021 #0.085
+#shoot1_orientation_z: 0.999 #-1
+#shoot1_orientation_w: 0.043 #0.006
+
+
+
+
+
+
+1_position_x: 1.032  #goal1
+1_position_y: 0.995
+1_orientation_z: 0.997
+1_orientation_w: 0.0
+
+2_position_x: 1.032   #goal2
+2_position_y: 0.5
+2_orientation_z: 0.997
+2_orientation_w: 0.0683
+
+3_position_x: 1.02  #goal3
+3_position_y: 0.04 #0.09
+3_orientation_z: -0.982
+3_orientation_w: 0.003

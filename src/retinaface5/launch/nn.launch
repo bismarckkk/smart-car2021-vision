@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="detect_server2" type="detect_server2_node" name="detect_server" output="screen" />
+    <node pkg="retinaface5" type="retinaface5_node" name="retinaface" output="screen"/>
+<!--    <node pkg="hrnet" type="hrnet" name="hrnet" />-->
+
+</launch>

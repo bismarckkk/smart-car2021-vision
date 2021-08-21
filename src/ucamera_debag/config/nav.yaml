@@ -1,0 +1,24 @@
+goal_no: 2
+
+shoot1: True
+shoot2: False
+
+shoot1_position_x: 2.65
+shoot1_position_y: 0.075
+shoot1_orientation_z: 0.98
+shoot1_orientation_w: 0.18
+
+1_position_x: 1.0  #goal1
+1_position_y: 0.995
+1_orientation_z: 0.997
+1_orientation_w: 0.0
+
+2_position_x: 1.052   #goal2
+2_position_y: 0.53
+2_orientation_z: 0.997
+2_orientation_w: 0.0683
+
+3_position_x: 1.052  #goal3
+3_position_y: 0.09
+3_orientation_z: -0.982
+3_orientation_w: 0.003
