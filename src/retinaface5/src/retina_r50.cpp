@@ -545,8 +545,8 @@ void detect(cv::Mat &img, retinaface5::detect::Response &response) {
         if (res[j].class_confidence < 0.2) continue;
         cv::Rect r = get_rect_adapt_landmark(img, res[j].bbox, res[j].landmark);
         double esti_y = -2.7544 * r.height + 335.96;
-	cv::putText(img, std::to_string(esti_y) + ", " + std::to_string(r.y)+ ", " +std::to_string(abs(esti_y - r.y)), cv::Point(r.x, r.y - 1), cv::FONT_HERSHEY_PLAIN, 1.2, cv::Scalar(0xFF, 0xFF, 0xFF), 1);
-        if (abs(esti_y - r.y) > 80) continue;
+        if (abs(esti_y - r.y) > 50) continue;
+	    cv::putText(img, std::to_string(esti_y) + ", " + std::to_string(r.y)+ ", " +std::to_string(abs(esti_y - r.y)), cv::Point(r.x, r.y - 1), cv::FONT_HERSHEY_PLAIN, 1.2, cv::Scalar(0xFF, 0xFF, 0xFF), 1);
         double degree = (r.x + r.width / 2. - 320) * 0.195;
         response.degree.push_back(degree);
         int result = getGlass(img(get_rect_adapt_landmark2(img, INPUT_W, INPUT_H, res[j].bbox, res[j].landmark)));
